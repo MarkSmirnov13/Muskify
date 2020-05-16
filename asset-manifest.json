@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.38fa1f2a.chunk.css",
-    "main.js": "/static/js/main.3e33c31f.chunk.js",
-    "main.js.map": "/static/js/main.3e33c31f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0f1a69a8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0f1a69a8.js.map",
-    "static/js/2.d04ee391.chunk.js": "/static/js/2.d04ee391.chunk.js",
-    "static/js/2.d04ee391.chunk.js.map": "/static/js/2.d04ee391.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6eb6192c59308e186cb46cc16b518026.js": "/precache-manifest.6eb6192c59308e186cb46cc16b518026.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.38fa1f2a.chunk.css.map": "/static/css/main.38fa1f2a.chunk.css.map",
-    "static/js/2.d04ee391.chunk.js.LICENSE.txt": "/static/js/2.d04ee391.chunk.js.LICENSE.txt",
-    "static/media/blue_mask.png": "/static/media/blue_mask.ee96ab1b.png",
-    "static/media/elon_musk.png": "/static/media/elon_musk.cff87dbe.png"
+    "main.css": "/Muskify/static/css/main.38fa1f2a.chunk.css",
+    "main.js": "/Muskify/static/js/main.87e127d1.chunk.js",
+    "main.js.map": "/Muskify/static/js/main.87e127d1.chunk.js.map",
+    "runtime-main.js": "/Muskify/static/js/runtime-main.7d4a41df.js",
+    "runtime-main.js.map": "/Muskify/static/js/runtime-main.7d4a41df.js.map",
+    "static/js/2.d04ee391.chunk.js": "/Muskify/static/js/2.d04ee391.chunk.js",
+    "static/js/2.d04ee391.chunk.js.map": "/Muskify/static/js/2.d04ee391.chunk.js.map",
+    "index.html": "/Muskify/index.html",
+    "precache-manifest.8729b386db3d8f0a32276dc8cd9b456c.js": "/Muskify/precache-manifest.8729b386db3d8f0a32276dc8cd9b456c.js",
+    "service-worker.js": "/Muskify/service-worker.js",
+    "static/css/main.38fa1f2a.chunk.css.map": "/Muskify/static/css/main.38fa1f2a.chunk.css.map",
+    "static/js/2.d04ee391.chunk.js.LICENSE.txt": "/Muskify/static/js/2.d04ee391.chunk.js.LICENSE.txt",
+    "static/media/blue_mask.png": "/Muskify/static/media/blue_mask.ee96ab1b.png",
+    "static/media/elon_musk.png": "/Muskify/static/media/elon_musk.cff87dbe.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f1a69a8.js",
+    "static/js/runtime-main.7d4a41df.js",
     "static/js/2.d04ee391.chunk.js",
     "static/css/main.38fa1f2a.chunk.css",
-    "static/js/main.3e33c31f.chunk.js"
+    "static/js/main.87e127d1.chunk.js"
   ]
 }
