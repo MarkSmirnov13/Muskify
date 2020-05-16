@@ -20,8 +20,8 @@ const getOverlayValues = landmarks => {
 
 export async function maskify(masks) {
     await Promise.all([
-        faceapi.nets.tinyFaceDetector.loadFromUri('/static/models'),
-        faceapi.nets.faceLandmark68TinyNet.loadFromUri('/static/models'),
+        faceapi.nets.tinyFaceDetector.loadFromUri('/Muskify/models'),
+        faceapi.nets.faceLandmark68TinyNet.loadFromUri('/Muskify/models'),
     ]).catch(error => {
         console.error('Error :(', error);
     });

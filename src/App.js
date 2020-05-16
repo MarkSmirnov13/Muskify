@@ -7,6 +7,11 @@ import UploadButton from './components/UploadButton/uploadButton'
 import './App.css';
 import Spinner from "./components/Spinner";
 
+/**
+ * TODO:
+ *
+ */
+
 function App() {
 
     useEffect(() => {
