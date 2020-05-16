@@ -20,8 +20,8 @@ const getOverlayValues = landmarks => {
 
 export async function maskify(masks) {
     await Promise.all([
-        faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
-        faceapi.nets.faceLandmark68TinyNet.loadFromUri('/models'),
+        faceapi.nets.tinyFaceDetector.loadFromUri('/static/models'),
+        faceapi.nets.faceLandmark68TinyNet.loadFromUri('/static/models'),
     ]).catch(error => {
         console.error('Error :(', error);
     });
@@ -32,7 +32,7 @@ export async function maskify(masks) {
     const imageUpload = document.querySelector('.file-upload__input');
     const item = document.querySelector('.wrapper');
     const handleImage = async (newImage, scale) => {
-        newImage.style.width = '500px';
+        newImage.style.width = '400px';
 
         const detection = await faceapi
             .detectSingleFace(newImage, new faceapi.TinyFaceDetectorOptions())
@@ -68,7 +68,7 @@ export async function maskify(masks) {
 
         image = await faceapi.bufferToImage(imageUpload.files[0]);
         image.className = 'image';
-        const scale = 500 / image.naturalWidth;
+        const scale = 400 / image.naturalWidth;
         await handleImage(image, scale);
     });
 }
