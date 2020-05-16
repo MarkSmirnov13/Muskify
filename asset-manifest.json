@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Muskify/static/css/main.38fa1f2a.chunk.css",
+    "main.css": "/Muskify/static/css/main.a69b50d6.chunk.css",
     "main.js": "/Muskify/static/js/main.87e127d1.chunk.js",
     "main.js.map": "/Muskify/static/js/main.87e127d1.chunk.js.map",
     "runtime-main.js": "/Muskify/static/js/runtime-main.7d4a41df.js",
@@ -8,9 +8,9 @@
     "static/js/2.d04ee391.chunk.js": "/Muskify/static/js/2.d04ee391.chunk.js",
     "static/js/2.d04ee391.chunk.js.map": "/Muskify/static/js/2.d04ee391.chunk.js.map",
     "index.html": "/Muskify/index.html",
-    "precache-manifest.8729b386db3d8f0a32276dc8cd9b456c.js": "/Muskify/precache-manifest.8729b386db3d8f0a32276dc8cd9b456c.js",
+    "precache-manifest.da26ea977b934580feb5fa8bfe486237.js": "/Muskify/precache-manifest.da26ea977b934580feb5fa8bfe486237.js",
     "service-worker.js": "/Muskify/service-worker.js",
-    "static/css/main.38fa1f2a.chunk.css.map": "/Muskify/static/css/main.38fa1f2a.chunk.css.map",
+    "static/css/main.a69b50d6.chunk.css.map": "/Muskify/static/css/main.a69b50d6.chunk.css.map",
     "static/js/2.d04ee391.chunk.js.LICENSE.txt": "/Muskify/static/js/2.d04ee391.chunk.js.LICENSE.txt",
     "static/media/blue_mask.png": "/Muskify/static/media/blue_mask.ee96ab1b.png",
     "static/media/elon_musk.png": "/Muskify/static/media/elon_musk.cff87dbe.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.7d4a41df.js",
     "static/js/2.d04ee391.chunk.js",
-    "static/css/main.38fa1f2a.chunk.css",
+    "static/css/main.a69b50d6.chunk.css",
     "static/js/main.87e127d1.chunk.js"
   ]
 }
