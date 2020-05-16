@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7297020b-b344-4b5c-9193-d2d975067bb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/models/face_landmark_68_tiny_model-weights_manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/models/tiny_face_detector_model-weights_manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Spinner/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UploadButton/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UploadButton/uploadButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UploadButton/uploadButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/masks/elon_musk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/maskify.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589643520216</updated>
-      <workItem from="1589643523500" duration="19644000" />
+      <workItem from="1589643523500" duration="20327000" />
     </task>
     <servers />
   </component>
@@ -102,6 +86,10 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="458" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.820@0.23.1440.820" timestamp="1589664018600" />
+    <state x="590" y="332" key="Github.ShareDialog" timestamp="1589667478566">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="590" y="332" key="Github.ShareDialog/0.23.1440.820@0.23.1440.820" timestamp="1589667478566" />
     <state x="385" y="167" width="670" height="676" key="search.everywhere.popup" timestamp="1589659309843">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
