@@ -4,6 +4,7 @@
     <list default="true" id="7297020b-b344-4b5c-9193-d2d975067bb7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Spinner/Spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589643520216</updated>
-      <workItem from="1589643523500" duration="20327000" />
+      <workItem from="1589643523500" duration="20697000" />
     </task>
     <servers />
   </component>
