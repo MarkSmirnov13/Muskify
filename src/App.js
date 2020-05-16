@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
+
+import { maskify } from './utils/maskify';
+import elonMusk from './masks/elon_musk.png';
+import blueMask from './masks/blue_mask.png';
+import UploadButton from './components/UploadButton/uploadButton'
 import './App.css';
+import Spinner from "./components/Spinner";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    useEffect(() => {
+        maskify([
+            blueMask,
+        ]).catch(error => {
+            console.error('Error', error);
+        });
+    }, []);
+
+    return (
+        <div className='App'>
+            <div className='title'>MUSKIFY</div>
+            <Spinner />
+            <div className='wrapper'>
+                <img src={elonMusk} alt='elon musk' className='elon-musk' />
+            </div>
+            <UploadButton />
+        </div>
+    );
 }
 
 export default App;
