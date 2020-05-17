@@ -1,0 +1,10 @@
+.no-faces-found {
+    display: none;
+    color: #444;
+    font-size: 16px;
+}
+
+.no-faces-found img {
+    width: 400px;
+    filter: grayscale(100%);
+}

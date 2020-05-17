@@ -4,15 +4,14 @@ import { maskify } from './utils/maskify';
 import elonMusk from './masks/elon_musk.png';
 import blueMask from './masks/blue_mask.png';
 import UploadButton from './components/UploadButton/uploadButton'
+import Spinner from './components/Spinner';
+import DownloadButton from './components/DownloadButton';
+import Footer from './components/Footer';
+import NoFacesFound from './components/NoFacesFound';
+
 import './App.css';
-import Spinner from "./components/Spinner";
 
-/**
- * TODO:
- *
- */
-
-function App() {
+const App = () => {
 
     useEffect(() => {
         maskify([
@@ -26,12 +25,17 @@ function App() {
         <div className='App'>
             <div className='title'>MUSKIFY</div>
             <Spinner />
+            <NoFacesFound />
             <div className='wrapper'>
                 <img src={elonMusk} alt='elon musk' className='elon-musk' />
             </div>
-            <UploadButton />
+            <div className='buttons'>
+                <UploadButton />
+                <DownloadButton />
+            </div>
+            <Footer />
         </div>
     );
-}
+};
 
 export default App;

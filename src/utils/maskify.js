@@ -20,28 +20,36 @@ const getOverlayValues = landmarks => {
 
 export async function maskify(masks) {
     await Promise.all([
-        faceapi.nets.tinyFaceDetector.loadFromUri('/Muskify/models'),
-        faceapi.nets.faceLandmark68TinyNet.loadFromUri('/Muskify/models'),
+        faceapi.nets.tinyFaceDetector.loadFromUri(process.env.REACT_APP_MODEL_PATH || '/Muskify/models'),
+        faceapi.nets.faceLandmark68TinyNet.loadFromUri(process.env.REACT_APP_MODEL_PATH || '/Muskify/models'),
     ]).catch(error => {
         console.error('Error :(', error);
     });
 
     let image;
+    const noFacesFound = document.querySelector('.no-faces-found');
+    const downloadButton = document.querySelector('.file-download');
     const elonMuskImage = document.querySelector('.elon-musk');
     const spinner = document.querySelector('.spinner-box');
     const imageUpload = document.querySelector('.file-upload__input');
     const item = document.querySelector('.wrapper');
+
     const handleImage = async (newImage, scale) => {
         newImage.style.width = '400px';
 
         const detection = await faceapi
             .detectSingleFace(newImage, new faceapi.TinyFaceDetectorOptions())
             .withFaceLandmarks(true);
+
         spinner.style.display = 'none';
 
         if (!detection) {
+            noFacesFound.style.display = 'block';
+            downloadButton.style.display = 'none';
             return;
         }
+
+        downloadButton.style.display = 'inline-block';
 
         const overlayValues = getOverlayValues(detection.landmarks);
         const overlay = document.querySelector('.mask') || document.createElement('img');
@@ -63,6 +71,7 @@ export async function maskify(masks) {
 
     imageUpload.addEventListener('change', async () => {
         spinner.style.display = 'flex';
+        noFacesFound.style.display = 'none';
         if (image) image.remove();
         if (elonMuskImage) elonMuskImage.remove();
 
