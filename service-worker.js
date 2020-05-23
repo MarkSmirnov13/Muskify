@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Muskify/precache-manifest.f7894cd74b92bdf8e50e36f57caf0628.js"
+  "/Muskify/precache-manifest.2e50119fba97ad6d657fc795129561f2.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Muskify/static/css/main.63fadee3.chunk.css",
-    "main.js": "/Muskify/static/js/main.b38809e4.chunk.js",
-    "main.js.map": "/Muskify/static/js/main.b38809e4.chunk.js.map",
+    "main.js": "/Muskify/static/js/main.fb22713f.chunk.js",
+    "main.js.map": "/Muskify/static/js/main.fb22713f.chunk.js.map",
     "runtime-main.js": "/Muskify/static/js/runtime-main.7d4a41df.js",
     "runtime-main.js.map": "/Muskify/static/js/runtime-main.7d4a41df.js.map",
     "static/js/2.06b8e66b.chunk.js": "/Muskify/static/js/2.06b8e66b.chunk.js",
     "static/js/2.06b8e66b.chunk.js.map": "/Muskify/static/js/2.06b8e66b.chunk.js.map",
     "index.html": "/Muskify/index.html",
-    "precache-manifest.f7894cd74b92bdf8e50e36f57caf0628.js": "/Muskify/precache-manifest.f7894cd74b92bdf8e50e36f57caf0628.js",
+    "precache-manifest.2e50119fba97ad6d657fc795129561f2.js": "/Muskify/precache-manifest.2e50119fba97ad6d657fc795129561f2.js",
     "service-worker.js": "/Muskify/service-worker.js",
     "static/css/main.63fadee3.chunk.css.map": "/Muskify/static/css/main.63fadee3.chunk.css.map",
     "static/js/2.06b8e66b.chunk.js.LICENSE.txt": "/Muskify/static/js/2.06b8e66b.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.7d4a41df.js",
     "static/js/2.06b8e66b.chunk.js",
     "static/css/main.63fadee3.chunk.css",
-    "static/js/main.b38809e4.chunk.js"
+    "static/js/main.fb22713f.chunk.js"
   ]
 }
