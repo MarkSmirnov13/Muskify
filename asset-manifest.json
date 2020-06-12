@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Muskify/static/css/main.63fadee3.chunk.css",
-    "main.js": "/Muskify/static/js/main.fb22713f.chunk.js",
-    "main.js.map": "/Muskify/static/js/main.fb22713f.chunk.js.map",
+    "main.js": "/Muskify/static/js/main.5831d21a.chunk.js",
+    "main.js.map": "/Muskify/static/js/main.5831d21a.chunk.js.map",
     "runtime-main.js": "/Muskify/static/js/runtime-main.7d4a41df.js",
     "runtime-main.js.map": "/Muskify/static/js/runtime-main.7d4a41df.js.map",
-    "static/js/2.06b8e66b.chunk.js": "/Muskify/static/js/2.06b8e66b.chunk.js",
-    "static/js/2.06b8e66b.chunk.js.map": "/Muskify/static/js/2.06b8e66b.chunk.js.map",
+    "static/js/2.b47d26b3.chunk.js": "/Muskify/static/js/2.b47d26b3.chunk.js",
+    "static/js/2.b47d26b3.chunk.js.map": "/Muskify/static/js/2.b47d26b3.chunk.js.map",
     "index.html": "/Muskify/index.html",
-    "precache-manifest.2e50119fba97ad6d657fc795129561f2.js": "/Muskify/precache-manifest.2e50119fba97ad6d657fc795129561f2.js",
+    "precache-manifest.ea073c255c2ada0ee12bef8c7c8f5153.js": "/Muskify/precache-manifest.ea073c255c2ada0ee12bef8c7c8f5153.js",
     "service-worker.js": "/Muskify/service-worker.js",
     "static/css/main.63fadee3.chunk.css.map": "/Muskify/static/css/main.63fadee3.chunk.css.map",
-    "static/js/2.06b8e66b.chunk.js.LICENSE.txt": "/Muskify/static/js/2.06b8e66b.chunk.js.LICENSE.txt",
+    "static/js/2.b47d26b3.chunk.js.LICENSE.txt": "/Muskify/static/js/2.b47d26b3.chunk.js.LICENSE.txt",
     "static/media/blue_mask.png": "/Muskify/static/media/blue_mask.ee96ab1b.png",
     "static/media/elon_musk.png": "/Muskify/static/media/elon_musk.cff87dbe.png",
     "static/media/sad_elon_musk.png": "/Muskify/static/media/sad_elon_musk.30184ce4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7d4a41df.js",
-    "static/js/2.06b8e66b.chunk.js",
+    "static/js/2.b47d26b3.chunk.js",
     "static/css/main.63fadee3.chunk.css",
-    "static/js/main.fb22713f.chunk.js"
+    "static/js/main.5831d21a.chunk.js"
   ]
 }
