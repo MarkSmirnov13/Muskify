@@ -16,9 +16,7 @@ const App = () => {
     useEffect(() => {
         maskify([
             blueMask,
-        ]).catch(error => {
-            console.error('Error', error);
-        });
+        ]).render();
     }, []);
 
     return (
